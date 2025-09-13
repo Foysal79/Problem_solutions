@@ -3,12 +3,11 @@ using namespace std;
 int main()
 {
 
-   
     int t;
     cin >> t;
     while (t--)
     {
-         int sum = 0;
+        int sum = 0;
         int x, n;
         cin >> x >> n;
         for (int i = 1; i <= n; i++)
@@ -24,7 +23,6 @@ int main()
         }
         cout << sum << endl;
     }
-    
 
     return 0;
 }
